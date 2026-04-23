@@ -5,7 +5,7 @@
 
 This custom version of the VTM software was modified to apply the proposed Block Compression Algorithm to both the Search Area and the Coding Block during VVC motion estimation, which represents a fundamental stage of my undergraduate thesis.
 
-The modifications were implemented in the file Lib/EncoderLib/InterSearch.cpp, where each 4×4 Coding Block and 4×4 Candidate Block is compressed from 128 bits into 32-bit vectors.
+The modifications were implemented to the file Lib/EncoderLib/InterSearch.cpp, where each 4×4 Coding Block and 4×4 Candidate Block is compressed from 128 bits into 32-bit vectors, according to the enabled compression modes (see Inter_Search_Horizontais.cpp, Inter_Search_Verticais.cpp and Inter_Search_quadrante.cpp).
 
 This approach was developed to reduce the memory usage and processing costs of dedicated hardware architectures for VVC motion estimation.
 

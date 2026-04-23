@@ -1,7 +1,7 @@
-#VTM-Software-with-compressed-blocks-motion-estimation
+# VTM-Software-with-compressed-blocks-motion-estimation
 
-#Author: Vítor Silva da Costa
-#Federal University of Pelotas
+# Author: Vítor Silva da Costa
+# Federal University of Pelotas
 
 This custom version of the VTM software was modified to apply the proposed Block Compression Algorithm to both the Search Area and the Coding Block during VVC motion estimation, which represents a fundamental stage of my undergraduate thesis.
 
